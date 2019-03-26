@@ -15,5 +15,17 @@
   <%= @pet.nascimento %>
 </p>
 
+<p><strong> Vacinas:</strong> </p>
+<ul>
+  <% Vacina.all.each do |vacina| %>
+    <li>vacina.name</li>
+  <% end %>
+</ul>
+<ul>
+  <% @pet.aplicacao.each do |aplicacao| %>
+    <li>applicacao.vacina.name</li>
+  <% end %>
+</ul>
+
 <%= link_to 'Edit', edit_pet_path(@pet) %> |
 <%= link_to 'Back', pets_path %>
