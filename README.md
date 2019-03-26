@@ -28,3 +28,5 @@ O vet clica em uma das vacinas. A vacina e' considerada aplicada.
 
 O veterinario lista as vacinas que precisam ser aplicadas.
 As vacinas sao listadas com nome, preco, e idade de aplicacao.
+
+OK
